@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    padding: 70px 70px 24px 70px;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.description__text{
+    font-size: 20px;
+    width: 500px;
+}
+
+div.quadrado{
+    position: relative;
+    display: inline-block;
+    border: 5px solid;
+    width: 300px;
+    background-image: url();
+}
