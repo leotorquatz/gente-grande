@@ -9,6 +9,7 @@ header{
 }
 
 body{
+    overflow: hidden;
     height: 100vh;
     display: grid;
     grid-template-rows: 100px 1fr 50px;
@@ -38,11 +39,11 @@ img {
     left: 25%;
     transform: translateX(-50%);
     z-index: 0;
-    width: 50%;
+    width: 40%;
 }
 
 nav {
-    font-size: 175%;
+    font-size: 145%;
     width: 100%;
     position: fixed; 
     top: 3%; 
@@ -72,10 +73,10 @@ nav a {
 }
 
 .description__text{
-    font-size: 21px;
-    width: 620px;
+    font-size: 131%;
+    width: 570px;
     position: relative;
-    top: 200px;
+    top: 28%;
 }
 
 
@@ -89,11 +90,12 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: end;
-    margin-top: 21%;
+    margin-top: 1%;
     margin-left: 11%;
 }
 .video__cont{
     margin-top: -8%;
+    width: 10%;
 }
 .redes {
     width: 17%; 
