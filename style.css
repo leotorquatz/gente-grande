@@ -29,14 +29,14 @@ main {
     align-items: flex-start; 
     position: absolute;
     top: 21%;
-    left: 7%;
+    left: 0%;
     z-index: 1;
 }
 
 img {
     position: absolute;
     top: 10%;
-    left: 25%;
+    left: 33%;
     transform: translateX(-50%);
     z-index: 0;
     width: 40%;
@@ -74,10 +74,10 @@ nav a {
 }
 
 .description__text{
-    font-size: 120%;
-    width: 430px;
+    font-size: 110%;
+    width: 410px;
     position: relative;
-    top: 36%;
+    top: 40%;
 }
 
   p {
@@ -85,8 +85,21 @@ nav a {
     background: linear-gradient (to right,rgba(255, 255, 255, 0.5), white url('background-image.jpg'));
     background-blend-mode: overlay;
   }
+.video1 {
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    display: flex;
+    margin-bottom: 100%;
+}
+.video2 {
+    width: 30%;
+    margin-left: 0%;
+    margin-bottom: 100%;
+    margin-top: -3%;
+  }
 
-  footer {
+ footer {
     color: white;
     display: flex;
     justify-content: center;
@@ -99,6 +112,6 @@ nav a {
 .redes {
     width: 19%; 
     position: absolute;
-    left: 150%;
+    left: 157%;
     top: 70%;
   }
