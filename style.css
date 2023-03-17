@@ -16,7 +16,7 @@ body{
     padding: 70px 70px 24px 70px;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
-    background-image: url(img/gentegrande2600.jpg);
+    background-image: url(img/Son_como_ni_os-306280844-large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -47,6 +47,7 @@ nav {
     width: 100%;
     position: fixed; 
     top: 3%; 
+    left: 0%;
     align-self: flex-start;
     background-color: transparent;
     display: flex;
@@ -66,40 +67,38 @@ nav li {
 }
 
 nav a {
-    color: #000000;
+    color: #FFFF;
     text-decoration: none;
     padding: 10px 50px;
     transition: background-color 0.2s ease;
 }
 
 .description__text{
-    font-size: 131%;
-    width: 570px;
+    font-size: 120%;
+    width: 430px;
     position: relative;
-    top: 28%;
+    top: 36%;
 }
-
 
   p {
     color: aliceblue;
     background: linear-gradient (to right,rgba(255, 255, 255, 0.5), white url('background-image.jpg'));
     background-blend-mode: overlay;
   }
+
   footer {
     color: white;
     display: flex;
     justify-content: center;
     align-items: end;
-    margin-top: 1%;
+    margin-top: 6%;
     margin-left: 11%;
+    width: 81%;
 }
-.video__cont{
-    margin-top: -8%;
-    width: 10%;
-}
+
 .redes {
     width: 17%; 
     position: absolute;
     left: 145%;
-    top: 20%;
+    top: 40%;
   }
